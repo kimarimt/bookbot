@@ -1,5 +1,8 @@
+BOOK_PATH = 'books/frankenstein.txt'
+
 def main():
-    print('hello world')
+    with open(BOOK_PATH) as f:
+        print(f.read())
 
 
 if __name__ == '__main__':
